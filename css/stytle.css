@@ -1,0 +1,866 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #101932;
+}
+
+.promo {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 130px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header h2 {
+    color: #FFFFFF;
+}
+
+.header span {
+    color: red;
+    padding-left: 5px;
+}
+
+button {
+    background: #AC1216;
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+}
+
+marquee {
+    color: rgba(255, 245, 0, 0.6);
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 150%;
+    text-shadow: #000000 0px 1px 1px;
+    background: #5A4039;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 15px;
+}
+
+.file img {
+    padding-top: 103px;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+
+.text span {
+    color: #AC1216;
+}
+
+.text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #71768E;
+    padding-bottom: 40PX;
+}
+
+.text h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #A0A3B5;
+}
+
+.file .btn {
+    width: 379px;
+    height: 80px;
+    left: 413px;
+    top: 583px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.file button {
+    width: 295px;
+    height: 80px;
+    left: 93px;
+    top: 583px;
+    background: #E11D2E;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search input {
+    width: 679px;
+    height: 75px;
+    left: 93px;
+    top: 683px;
+    background-color: transparent;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.earth .logo {
+    margin: 105px;
+    display: flex;
+    justify-content: center;
+}
+
+.earth .img {
+    background-image: url(../img/earth.svg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center top;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.earth .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.earth button {
+    width: 215px;
+    height: 77px;
+    background: #E11D2E;
+    border-radius: 10px;
+}
+
+.earth .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.earth h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 550px;
+    margin: 40px 450px;
+}
+
+.work h3 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 120px 0px 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.work .container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+
+.work .ecosystem {
+    width: 466px;
+    padding: 30px;
+    background: #384D70;
+    border-radius: 20px;
+}
+
+.ecosystem h4 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    margin: 30px 0px 10px;
+    color: #FFFFFF;
+}
+
+.ecosystem p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.ecosystem h5 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+
+.earn h2 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 250px;
+    color: #FFFFFF;
+}
+
+.earn p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    margin: 10px 0px 50px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.earn .goal {
+    width: 100%;
+    background: #071022;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.goal .img {
+    margin-left: 50px;
+    border-radius: 30px;
+    width: 800px;
+}
+.goal .text{
+    margin: 50px;
+}
+
+.text h5 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.text h6 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.cash {
+    width: 647px;
+  
+    left: 92px;
+    top: 3366px;
+    display: flex;
+    align-items: center;
+    background: #FF9429;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.cash1 {
+    width: 780px;
+    
+    left: 92px;
+    top: 3366px;
+    display: flex;
+    align-items: center;
+    background: #067ccb;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.item .container{
+    display: flex;
+   gap: 50px;
+    margin-top: 50px;
+}
+
+.item .text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.invest .container{
+    margin-top: 175px;
+   display: flex;
+   align-items: center;
+    background: #30298C;
+   padding: 50px;
+   gap: 50px;
+}
+
+.invest .masive img{
+    width: 800px ;
+}
+
+
+.shiba h2{
+    font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.shiba p{
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 30px 0px;
+    color: #FFFFFF;
+    
+    opacity: 0.6;
+}
+
+.invest button{
+    width: 404px;
+height: 80px;
+left: 92px;
+top: 4177px;
+font-size: 17px;
+background: #E11D2E;
+border-radius: 10px;
+}
+
+
+.road_line h2{
+    margin-top: 70px;
+    font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+  
+  .road {
+    width: 100%;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 19px;
+  }
+  
+  .road_line_col {
+    display: flex;
+    flex-direction: column;
+    gap: 395px;
+    width: 792px;
+  }
+  
+  .road_line_col2 {
+    margin-top: 276px;
+  }
+  
+  .road_item {
+    background: rgba(56, 77, 112, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 35px 0 35px 30px;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  
+  .road_item_number{
+    font-family: "SF Pro Display Bold";
+    font-size: 65px;
+    line-height: 78px;
+    color: #ffffff;
+    opacity: 0.5;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .road_number {
+    background: rgba(56, 77, 112, 0.2);
+    border-radius: 30px;
+    padding: 34px 53px;
+    max-height: 146px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .road_line_col_item_info_title {
+    font-family: "SF Pro Display Medium";
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    opacity: 0.7;
+  }
+  
+  .road_line_col_item_info_list li {
+    font-size: 25px;
+    line-height: 30px;
+    color: #ffffff;
+    opacity: 0.7;
+  }
+
+  .team{
+    background: #162344;
+    height: 1000px;
+  }
+  
+  .team h2{
+    font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+margin: 50px;
+color: #FFFFFF;
+
+  }
+
+  .team .members{
+    display: flex;
+    align-items: center; 
+justify-content: center;
+gap: 30px;
+  }
+
+  .member h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 20px;
+    color: #FFFFFF;
+  }
+  .member img{
+  width: 300px;
+  }
+  
+
+  .member p{
+    font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+
+opacity: 0.6;
+  }
+
+ .team .dot{
+   margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.team .col1{
+    width: 7px;
+    height: 7px;
+    background: #FF0000;
+}
+
+.team .col{
+    width: 7px;
+    height: 7px;
+    background: #A2A7B4;
+}
+
+.team .nav{
+    display: flex;
+    justify-content: center;
+}
+
+.menu .container{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.menu h2{
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;  
+text-align: center;
+margin: 70px;
+color: #FFFFFF;
+
+}
+
+.menes{
+ width: 1036px;
+
+
+display: flex;
+justify-content: space-between;
+background: #384D70;
+border-radius: 15px;
+padding: 25px;
+}
+
+.menu .text h3{
+ font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.circle{
+    background-color: #AC1216;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.join .container {
+    width: 1920px;
+height: 771px;
+background: #162758;
+padding: 50px;
+}
+
+.join h2{
+ text-align: center;
+ font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+
+color: #FFFFFF;
+}
+
+.join .container .nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 146px;
+}
+
+.join .img{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.bottom h2{
+ font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+margin: 50px;
+color: #FFFFFF;
+
+opacity: 0.4;
+}
+  
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .nav {
+        gap: 10px;
+    }
+    .nav a {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .text h1 {
+        font-weight: 600;
+        font-size: 60px;
+    }
+    .text p {
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .text h2 {
+        font-weight: 200;
+        font-size: 25px;
+    }
+    .file .btn {
+        width: 279px;
+        height: 60px;
+    }
+    .file button {
+        width: 195px;
+        height: 60px;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    .search input {
+        width: 479px;
+        height: 55px;
+        font-size: 15px;
+    }
+    .earth {
+        width: 1000px;
+    }
+    .img img {
+        margin: 50px 400px;
+    }
+    .earth button {
+        margin: 40px 390px;
+        font-size: 15px;
+    }
+    .earth h2 {
+        margin: 40px 230px;
+    }
+    .work .container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .earn .goal{
+      flex-direction: column;
+    }
+
+    .goal .img{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .nav a {
+        font-size: 8px;
+    }
+    button {
+        width: 90px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .text h1 {
+        font-size: 40px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+    .text h2 {
+        font-size: 20px;
+    }
+    .file .btn {
+        width: 280px;
+        height: 61px;
+    }
+    .file button {
+        width: 240px;
+        height: 61px;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+    .search input {
+        align-items: center;
+        width: 325px;
+        height: 61px;
+        font-size: 15px;
+    }
+    .earth {
+        width: 800px;
+    }
+    .earth .logo img {
+        width: 600px;
+    }
+    .img img {
+        margin: 50px 300px;
+    }
+    .earth button {
+        margin: 40px 300px;
+    }
+    .earth h2 {
+        margin: 40px 150px;
+    }
+    .work .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .earn .goal{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .item .container{
+        flex-direction: column;
+     }
+
+     .invest .container{
+        display: none;
+     }
+
+     .team .members{
+        display: flex;
+        flex-direction: column;
+     }
+     .menu{
+        margin-top: 1500px;
+     }
+     .team .nav{
+     display: none;
+     }
+     .menes{
+        width: 500px;
+     }
+     .join .container{
+
+        display: none;
+     }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    button {
+        width: 40px;
+        height: 40px;
+        left: 305px;
+        top: 10px;
+        background: #384D70;
+        border-radius: 5px;
+        color: transparent;
+    }
+    .file {
+        display: block;
+    }
+    .file img {
+        width: 350px;
+    }
+    .earth {
+        width: 400px;
+    }
+    .earth .log {
+        margin-top: 106px;
+    }
+    .earth .logo img {
+        width: 400px;
+    }
+    .img img {
+        margin: 50px 100px;
+    }
+    .earth button {
+        width: 215px;
+        height: 77px;
+        background: #E11D2E;
+        border-radius: 10px;
+        margin: 40px 100px;
+        color: #FFFFFF;
+    }
+    .earth h2 {
+        font-size: 20px;
+        margin: 40px 60px;
+        width: 300px
+    }
+    .work .ecosystem {
+        width: 370px;
+    }
+    .work .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+.goal .img{
+    margin: 0;
+}
+
+    .goal .img img{
+        width: 300px;
+       
+    }
+
+    .item .container{
+       flex-direction: column;
+    }
+
+    .cash{
+        flex-direction: column;
+        width: 100%;
+    }
+    .cash1{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .road_line_col2{
+        display: none;
+    }
+.menes{
+    width: 300px;
+}
+}
